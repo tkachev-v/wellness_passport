@@ -5,6 +5,7 @@ from app.pdf_handling import handle_pdf
 from app.generate import responde
 from prompt import prompt1, prompt2
 
+
 router = Router()
 
 @router.message(CommandStart())

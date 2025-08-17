@@ -7,6 +7,7 @@ TOKEN_deepseek = os.getenv("deepseek_api")
 client = AsyncOpenAI(api_key=TOKEN_deepseek,
                     base_url="https://api.deepseek.com")
 
+
 async def analyzing(text:str, prompt:str):
     response = await client.chat.completions.create(
         model = "deepseek-chat",
