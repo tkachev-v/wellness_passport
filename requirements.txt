@@ -1,0 +1,13 @@
+openai~=1.102.0
+dotenv~=0.9.9
+python-dotenv~=1.1.1
+aiogram~=3.22.0
+fitz~=0.0.1.dev2
+pip~=25.2
+configparser~=7.2.0
+wheel~=0.36.2
+lxml~=6.0.1
+asyncio~=4.0.0
+pathlib~=1.0.1
+setuptools~=44.1.1
+PyMuPDF~=1.26.4
